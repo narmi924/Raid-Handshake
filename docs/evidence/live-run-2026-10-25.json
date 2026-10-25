@@ -108,6 +108,18 @@
           "error": null,
           "chat_complete": true,
           "cohort_complete": true
+        },
+        {
+          "minute": 30,
+          "scheduled_at": "2026-10-25T17:11:24.133+08:00",
+          "observed_at": "2026-10-25T17:11:28.423+08:00",
+          "population": 0,
+          "connected": 0,
+          "spoken": 0,
+          "follows": 0,
+          "error": null,
+          "chat_complete": true,
+          "cohort_complete": true
         }
       ]
     },
@@ -156,8 +168,23 @@
           "error": null,
           "chat_complete": true,
           "cohort_complete": true
+        },
+        {
+          "minute": 30,
+          "scheduled_at": "2026-10-25T17:21:48.285+08:00",
+          "observed_at": "2026-10-25T17:21:49.723+08:00",
+          "population": 0,
+          "connected": 0,
+          "spoken": 0,
+          "follows": 0,
+          "error": null,
+          "chat_complete": true,
+          "cohort_complete": true
         }
       ]
     }
-  ]
+  ],
+  "last_aggregate_update": "2026-10-25T17:36:15.092+08:00",
+  "repository": "https://github.com/narmi924/Raid-Handshake",
+  "interface_note": "The 19.803-second recorded timing predates the final guided-setup UI redesign; no new timed raid is claimed."
 }

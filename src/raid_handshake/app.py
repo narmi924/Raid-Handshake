@@ -46,9 +46,12 @@ def create_app(
     settings = settings or Settings()
     service = Service(settings, credentials)
     package_path = Path(__file__).resolve().parent
-    guide_path = package_path / "guides" / "FIRST_REAL_RAID.zh-CN.md"
+    guide_path = package_path / "guides" / "JUDGE_GUIDE.md"
     if not guide_path.is_file():
-        guide_path = package_path.parents[1] / "docs" / "FIRST_REAL_RAID.zh-CN.md"
+        guide_path = package_path.parents[1] / "docs" / "JUDGE_GUIDE.md"
+    audio_guide_path = package_path / "guides" / "OBS_AUDIO_SETUP.md"
+    if not audio_guide_path.is_file():
+        audio_guide_path = package_path.parents[1] / "docs" / "OBS_AUDIO_SETUP.md"
 
     @asynccontextmanager
     async def lifespan(_: FastAPI):
@@ -263,7 +266,13 @@ def create_app(
     async def guide():
         if guide_path.is_file():
             return FileResponse(guide_path, media_type="text/plain; charset=utf-8")
-        raise HTTPException(404, "See docs/FIRST_REAL_RAID.zh-CN.md in the source repository.")
+        raise HTTPException(404, "See docs/JUDGE_GUIDE.md in the source repository.")
+
+    @app.get("/guide/audio")
+    async def audio_guide():
+        if audio_guide_path.is_file():
+            return FileResponse(audio_guide_path, media_type="text/plain; charset=utf-8")
+        raise HTTPException(404, "See docs/OBS_AUDIO_SETUP.md in the source repository.")
 
     if (STATIC / "assets").exists():
         app.mount("/assets", StaticFiles(directory=STATIC / "assets"), name="assets")

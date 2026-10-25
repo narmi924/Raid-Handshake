@@ -1,11 +1,13 @@
 # Raid Handshake
 
-A local control room and OBS overlay that carry context across a **real Twitch raid**.
+[![Checks](https://github.com/narmi924/Raid-Handshake/actions/workflows/checks.yml/badge.svg)](https://github.com/narmi924/Raid-Handshake/actions/workflows/checks.yml)
+
+A local studio and OBS overlay that carry context across a **real Twitch raid**.
 
 Built with OpenAI Codex for the Codex x TwitchCon Hackathon. Runtime transcription and
 summarization use the OpenAI API; there is no local model installation.
 
-**Starting from zero?** Follow the [Chinese account and first-raid guide](docs/FIRST_REAL_RAID.zh-CN.md).
+**Starting from zero?** Follow the [English judge and setup guide](docs/JUDGE_GUIDE.md).
 The [accepted implementation plan](PLAN.md) records the current scope and open terms questions.
 
 **Live-tested:** a genuine `thisisraida` → `thisisraidb` raid produced a manually approved
@@ -16,7 +18,14 @@ examples remain unverified. See the [evidence and limits](docs/VERIFICATION.md).
 
 For submission, start with the [English judge guide](docs/JUDGE_GUIDE.md),
 [project description](docs/SUBMISSION.md), [demo recording script](docs/DEMO_SCRIPT.md),
-and [Chinese closeout checklist](docs/CLOSEOUT.zh-CN.md).
+and [English closeout checklist](docs/CLOSEOUT.md).
+
+The interface follows the [supplied Twitch design reference](docs/twitch.design.md): a light
+canvas, purple primary actions and pill controls. First-run setup has three steps. Daily use
+focuses on listening and reviewing one welcome message; credentials, models, templates and
+diagnostics live in Settings. The interface and primary submission materials are English.
+
+Repository: [narmi924/Raid-Handshake](https://github.com/narmi924/Raid-Handshake).
 
 ## Run on Windows
 
@@ -40,23 +49,23 @@ With the bundled interface, a runtime-only installation can use
 
 ## Connect real services
 
-1. Register a Twitch application as a **Public Client**. Enter its Client ID in the control room.
+1. Register a Twitch application as a **Public Client**. Enter its Client ID in setup step 1.
    Device Code Flow needs no Client Secret. Twitch may still require a redirect entry during
    registration; `http://localhost:8765` is suitable, although DCF does not use it.
 2. Select **Connect Twitch**, open the official activation link, and authorize as the
    **receiving broadcaster B**. The UI displays the connected channel. No standalone bot account
    is required: chat posts use B's identity.
-3. Add your own OpenAI API key locally. Defaults are `gpt-transcribe` for bounded 8-second voiced
+3. Add your own OpenAI API key in setup step 2. Defaults are `gpt-transcribe` for bounded 8-second voiced
    audio segments and `gpt-4.1-mini` for structured Responses summaries. Models are configurable
    for your project's access. No automatic provider or local-model fallback is performed.
-4. Choose an authorized microphone/audio input and start capture. Audio and chat context go to
+4. Choose an authorized audio source and select **Start listening**. Audio and chat context go to
    OpenAI. Wait for an actual transcript and a fresh summary. No title-only substitution is used.
    For speech played by a local HTML page, choose the matching speaker entry marked
-   **system playback**. Keep Twitch web players muted on that computer to avoid re-capture.
-   The [Chinese OBS audio guide](docs/OBS_AUDIO_SETUP.zh-CN.md) covers this setup.
-5. Configure your real commands, one rule, language and landing template. Templates support
+   **System audio**. Keep Twitch web players muted on that computer to avoid re-capture.
+   The [OBS audio guide](docs/OBS_AUDIO_SETUP.md) covers this setup.
+5. In **Settings → Welcome**, configure your real participation hint, one rule, language and template. Templates support
    `{summary}`, `{commands}`, `{rule}`; the complete message must fit Twitch's 500-character limit.
-6. Copy the OBS URL into a **1920×1080 Browser source** in B's scene. It has a transparent background.
+6. Copy the overlay URL in setup step 3, or **Settings → Connections**, into a **1920×1080 Browser source** in B's scene. It has a transparent background.
 7. Wait for a fresh Chatters baseline before triggering the raid from A. Both channels should be
    live, A should have real participants, and B's incoming-raid settings must allow A.
 
@@ -144,7 +153,7 @@ that Twitch authorization, OpenAI billing/model access, or the actual A → B ra
 Reproducing the live run requires two accounts/broadcasts, B authorization, an OpenAI API key,
 and real participants for positive chat-connection observations. Existing tests do not replace
 those live checks. See [verification status](docs/VERIFICATION.md) and the
-[first-raid guide](docs/FIRST_REAL_RAID.zh-CN.md).
+[setup guide](docs/JUDGE_GUIDE.md).
 
 ## Hackathon submission
 

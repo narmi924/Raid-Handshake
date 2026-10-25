@@ -11,7 +11,7 @@ def main() -> None:
     if settings.host not in {"127.0.0.1", "localhost"}:
         raise SystemExit("Raid Handshake must bind to localhost.")
     print(f"Raid Handshake control room: http://127.0.0.1:{settings.port}", flush=True)
-    print("Real Twitch EventSub only. Account setup: docs/FIRST_REAL_RAID.zh-CN.md", flush=True)
+    print("Real Twitch EventSub only. Quick start: docs/JUDGE_GUIDE.md", flush=True)
     uvicorn.run(
         create_app(settings),
         host=settings.host,

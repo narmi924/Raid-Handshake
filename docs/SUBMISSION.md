@@ -1,7 +1,7 @@
 # Raid Handshake — submission description
 
-Copy-ready English project description. Add the final repository and public YouTube links
-to the submission form after publication; neither has been published by this preparation step.
+Copy-ready English project description. The selected repository is linked below; add the
+final publicly visible YouTube URL to the submission form after recording and upload.
 
 ## Project name
 
@@ -41,7 +41,7 @@ observations, not video-viewing retention or a verified list of raid members.
 
 ## How it was built
 
-The app runs locally on Windows with a FastAPI service, a TypeScript/Vite control room,
+The app runs locally on Windows with a FastAPI service, a TypeScript/Vite studio,
 SQLite session state and a transparent OBS browser source. Twitch Public Client Device
 Code Flow connects the receiving broadcaster. EventSub WebSocket supplies real raid,
 chat and follow events, while paginated Get Chatters snapshots support the connection estimate.
@@ -58,6 +58,10 @@ implement OAuth and EventSub, integrate transcription and structured summaries, 
 control room and overlay, and check the cohort and send-state logic. We iterated in this
 build thread against two real Twitch channels. Codex also created setup documentation,
 automated checks and the submission preparation documents.
+
+The interface was then simplified with the developer's Twitch design reference: a light
+canvas, a three-step first-run flow, one focused studio and progressive disclosure in Settings.
+The interface and primary delivery materials are English.
 
 The developer performed account setup, broadcaster authorization, the real broadcasts,
 raids and manual publishing confirmations. These live steps were not replaced with fixtures.
@@ -82,6 +86,8 @@ from an already warm audio summary. Twitch confirmed the manually approved chat 
 **19.803 seconds after the app received EventSub**. The broadcaster confirmed the guest
 card appeared in the actual Twitch broadcast within thirty seconds. The video timing was
 human-observed, not independently measured frame by frame.
+This measured run predates the final interface refinement; the final recorded take should
+show the current studio and its actual elapsed time.
 
 Real five-, fifteen- and thirty-minute samples completed with an empty new-connection cohort. That
 verifies the timed observation path for zero arrivals; it does not establish improved viewer
@@ -97,7 +103,7 @@ We would evaluate that benefit directly before making any claim about retention 
 
 ## Links and submission fields
 
-- Repository URL: not published yet; enter the final accessible repository URL.
+- Repository URL: **https://github.com/narmi924/Raid-Handshake**.
 - Demo URL: not recorded/uploaded yet; enter the final publicly visible YouTube URL.
 - Platform: Windows 10/11; local browser control room and OBS Studio browser source.
 - Testing instructions: [English judge guide](JUDGE_GUIDE.md).

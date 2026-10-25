@@ -1,5 +1,7 @@
 # Raid Handshake：收尾与提交清单
 
+> 前期中文记录。正式英文收尾清单见[CLOSEOUT.md](CLOSEOUT.md)，仓库已指定为[narmi924/Raid-Handshake](https://github.com/narmi924/Raid-Handshake)。
+
 当前阶段：真实 A → B、转录/摘要、落地卡发送和 overlay 已跑通；收尾目标是补证据、稳定交付和提交材料。按任务推进，不再扩展 MVP 范围。
 
 ## 已完成的真实验证
@@ -38,7 +40,7 @@
 - [英文 README](../README.md)、[评委指南](JUDGE_GUIDE.md)、源码、依赖锁文件、测试和编译后的界面应一起发布。
 - `.env`、`data/`、凭证、原始聊天/转录、测试音频、`tmp/` 和录制原片不进入源码包。
 - 自用的 `tmp/index.html` 和 MP3 是测试内容；应用本身通过麦克风/系统回录接受评委自己的授权音频，不依赖该绝对路径。
-- 当前没有 Git 远程仓库。发布目标尚待指定；提交表里必须填实际可访问的仓库地址。
+- 发布目标已指定为 `https://github.com/narmi924/Raid-Handshake`；提交前确认代码和 CI 已可访问。
 - 若使用私有仓库，按官方规则给指定评委账号访问权限；保持项目可供评审测试至评审结束。
 
 ## 4. 提交字段
@@ -49,7 +51,7 @@
 | 英文介绍与 Codex 使用说明 | [SUBMISSION.md](SUBMISSION.md)，已备好 |
 | 英文评委运行说明 | [JUDGE_GUIDE.md](JUDGE_GUIDE.md)，已备好 |
 | 演示视频 | 脚本已备好；真实视频尚待录制、剪辑、公开上传 |
-| 代码仓库 URL | 尚未发布 |
+| 代码仓库 URL | https://github.com/narmi924/Raid-Handshake |
 | Codex session ID | `01a17154-fef0-76f1-b2bb-cb54cdf374ae` |
 | 截止时间 | 2026-11-03 **06:00 新加坡时间**，即 11-02 14:00 美国太平洋时间 |
 

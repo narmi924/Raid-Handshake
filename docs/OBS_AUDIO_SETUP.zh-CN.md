@@ -1,5 +1,7 @@
 # 当前测试：HTML 音频 → Twitch B 与 Raid Handshake
 
+> 前期中文操作记录。新版入口为 Settings → Audio 与 Start listening；当前英文版本见[OBS audio setup](OBS_AUDIO_SETUP.md)。
+
 适用于你现在的组合：手机 A `thisisraida` 正在直播；电脑 OBS 以 B `thisisraidb` 直播 `tmp/index.html`。不需要对着麦克风讲话。
 
 2026-10-25 已读取本机保存的配置：OBS 32.2.2；HTML 浏览器来源的“通过 OBS 控制音频”未勾选；桌面音频采集 EDIFIER 扬声器；Windows 默认播放设备也是 EDIFIER。控制台支持回录这个播放设备。

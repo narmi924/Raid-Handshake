@@ -88,6 +88,33 @@ Read-only inspection of the running local service and saved OBS configuration co
   from the wheel; it is now bundled with the OBS audio guide and third-party notices. The
   app-route checks were rerun after that packaging fix.
 
+## Interface redesign verification
+
+The interface was subsequently redesigned using `docs/twitch.design.md`. It uses a light
+canvas, the supplied purple hierarchy and pill controls, a three-step setup wizard, a focused
+studio, and a Settings dialog. Context/transcripts and observation details are collapsed by
+default. All interface copy and primary delivery guides are English; hardware and external
+channel metadata can retain their original names.
+
+- Real Chromium checked the connected studio at 1440px and 390px widths, the settings Audio
+  panel, and an empty first-run installation. No fake raid data or test chat was sent.
+- No horizontal page overflow was observed at 390px in either the studio or setup.
+- A setup error can be corrected by choosing another source: the primary action becomes
+  **Use this source** instead of remaining disabled. Existing users can return to the studio
+  without repeating the wizard. These controls were exercised without changing live capture.
+- Blank Twitch Client ID validation displays an actionable message without starting OAuth.
+- Automated axe checks report zero violations for the studio, Audio settings and first-run
+  wizard after adding an underline to an inline helper link. The studio and dialog audits
+  included incomplete heading/contrast items; visual inspection did not show an overlap.
+- Exact-text preview now checks the displayed draft identity, page visibility and dialog state.
+  Explicit sending awaits an in-flight preview acknowledgement. Publishing remains a manual
+  action by default.
+- The updated English `/guide` and `/guide/audio` routes return successfully. Restart preserved
+  B authorization and resumed the previously active audio source.
+
+**The 19.803-second live result above predates this redesign.** No fresh timed raid or automatic
+publishing run is claimed for the new interface; the final recorded real take remains pending.
+
 ## Remaining live acceptance checks
 
 | Boundary | Current status |

@@ -37,21 +37,22 @@ review. Global Ctrl+Shift+Enter requires Windows; the on-screen send button is a
 
 ## Connect and prepare
 
-1. Enter the Public Client ID in **Your receiving channel**, select **Connect Twitch**, and
+1. In setup step 1, enter the Public Client ID, select **Connect Twitch**, and
    complete Twitch's official Device Code authorization **as B**. The receiving channel name
    must match B. No Client Secret or separate bot account is needed.
-2. Save your OpenAI key in the local control room. It is never returned in the state response.
-3. Choose the authorized microphone, or the matching speaker entry marked **system playback**
-   for speech actually being broadcast from a local player. Select **Start audio**. Maintain
+2. In setup step 2, add your OpenAI key locally. It is never returned in the state response.
+3. Choose the authorized microphone, or the matching speaker entry marked **System audio**
+   for speech actually being broadcast from a local player. Select **Start listening**. Maintain
    real speech until **Recent transcript** is populated and **Summary ready** appears.
 4. If using system playback, mute Twitch web players on the capture computer to avoid feeding
    delayed stream audio back into capture. Keep the intended audio output and OBS input enabled.
-5. Set actual participation hints, one rule and language. Save channel settings. Leave the
+5. Open **Settings → Welcome** to set actual participation hints, one rule and language. Save welcome settings. Leave the
    optional automatic template mode off for the default exact-preview test.
-6. Select **Copy OBS URL** and add it as a separate **1920×1080 Browser source**, above B's
-   content. Keep the URL's read-only key private. It is distinct from any HTML content source.
-7. Start A and B broadcasts. Allow incoming raids from A in B's channel settings. Wait until
-   Twitch Events and Chatters Baseline are connected and the audio summary remains ready.
+6. In setup step 3, select **Copy overlay URL** and add it as a separate **1920×1080 Browser source**, above B's
+   content. Open the studio after adding it. The link is also in **Settings → Connections**.
+   Keep its read-only key private. It is distinct from any HTML content source.
+7. Start A and B broadcasts. Allow incoming raids from A in B's channel settings. Wait for the
+   studio to show **Ready for a raid**. Detailed connection state is under **Settings → Advanced**.
 
 New channels can correctly show no clips and insufficient source-emote samples. These do not
 prevent testing the real event, transcript, welcome card or observation schedule.
@@ -64,15 +65,15 @@ prevent testing the real event, transcript, welcome card or observation schedule
    Complete Twitch's countdown/confirmation. Keep B and the local service running.
 3. Verify the guest card in B's actual Twitch video, including source/title/category and
    reported raid size. The source lookup budget is 4.5 seconds; unavailable fields are labeled.
-4. In the local control room, read the complete generated landing card, then select **Send to
-   Twitch chat** or press **Ctrl+Shift+Enter**. Verify the real message in B's Twitch chat.
+4. In the studio, read the complete generated welcome, then select **Send welcome message**
+   or press **Ctrl+Shift+Enter**. Verify the real message in B's Twitch chat.
 5. Record the native Twitch raid arrival and when the overlay and chat message become visible.
    Local receipt-to-send timing is useful evidence but is not identical to video display timing.
 6. During the first sixty seconds, participants may send ordinary real chat and familiar
    emotes. Learning requires at least three occurrences and two authors; sparse samples are
    labeled insufficient. Third-party text is not claimed as verified native emote ownership.
 7. Keep participants connected to B. The estimated cohort closes ninety seconds after arrival.
-   At five, fifteen and thirty minutes, inspect actual observation timestamps and counts.
+   Expand **After the hello**. At five, fifteen and thirty minutes, inspect actual observation timestamps and counts.
    A cohort member must send an ordinary message within the preceding five minutes to count
    as a recent speaker. Follow counts cover the whole channel since the raid, not only the cohort.
 

@@ -30,6 +30,12 @@ The first milestone is a genuine A → B Twitch raid. Tasks take priority over c
     sanitized live evidence; check packaging and source hygiene.
 11. [ ] Verify positive chat-connection/speech examples with genuine new participants.
 12. [ ] Record and publicly upload the real demo; publish an accessible repository; submit Devpost.
+13. [x] Apply the user's Twitch design reference: guided setup, focused studio, progressive
+    Settings and English interface/help; verify desktop/mobile layouts and correction paths.
+
+Selected repository: `https://github.com/narmi924/Raid-Handshake` (created by the user).
+Primary delivery materials are English: `docs/SUBMISSION.md`, `docs/JUDGE_GUIDE.md`,
+`docs/OBS_AUDIO_SETUP.md`, `docs/DEMO_SCRIPT.md` and `docs/CLOSEOUT.md`.
 
 The first live connection milestone is achieved. On 2026-10-25 three genuine incoming raids
 from `thisisraida` to `thisisraidb` were received. On the third raid, Twitch confirmed the
