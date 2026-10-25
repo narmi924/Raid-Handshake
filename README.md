@@ -27,6 +27,21 @@ diagnostics live in Settings. The interface and primary submission materials are
 
 Repository: [narmi924/Raid-Handshake](https://github.com/narmi924/Raid-Handshake).
 
+## Architecture
+
+The studio, audio capture, local service and OBS browser source run on B's Windows computer.
+Twitch supplies events and channel data; OpenAI transcribes the selected local audio and
+summarizes the recent spoken context. Codex is the development tool, outside this runtime path.
+
+![Raid Handshake runs locally on B's computer, exchanging Twitch events and API calls and sending audio and context to OpenAI.](docs/figures/architecture/architecture.svg)
+
+[Editable draw.io](docs/figures/architecture/architecture.drawio) ·
+[PNG](docs/figures/architecture/architecture.png) ·
+[PDF](docs/figures/architecture/architecture.pdf)
+
+The OBS arrow carries read-only overlay state; OBS broadcasts the composed scene to Twitch
+independently. [Figure sources and code references](docs/figures/README.md) document each connection.
+
 ## Run on Windows
 
 Requirements: Windows 10/11, Python 3.11, [uv](https://docs.astral.sh/uv/getting-started/installation/),
@@ -100,6 +115,18 @@ Keep any `.env` file private; the repository ignores it.
 
 Only the receiving channel's EventSub feed is subscribed. There is no historical source-chat
 API assumption, self-report enrollment, extension approval dependency, or simulated-event route.
+
+## Raid sequence
+
+The default path reuses a fresh spoken summary, enriches the guest card and prepares the
+welcome in parallel, then waits for the broadcaster's exact-text confirmation. Observation
+windows start at the raid and do not wait for the send. Vertical spacing is schematic.
+
+![The default raid sequence prewarms audio context, receives a real raid, prepares the guest card and welcome in parallel, waits for confirmation, and samples chat connections.](docs/figures/raid-sequence/raid-sequence.svg)
+
+[Editable draw.io](docs/figures/raid-sequence/raid-sequence.drawio) ·
+[PNG](docs/figures/raid-sequence/raid-sequence.png) ·
+[PDF](docs/figures/raid-sequence/raid-sequence.pdf)
 
 ## Chat-connection estimates
 

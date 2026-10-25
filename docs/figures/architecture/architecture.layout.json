@@ -1,0 +1,681 @@
+{
+ "name": "architecture",
+ "items": [
+  {
+   "id": "c1",
+   "role": "group",
+   "rect": [
+    330,
+    34,
+    520,
+    630
+   ],
+   "check": true
+  },
+  {
+   "id": "c2",
+   "role": "text",
+   "rect": [
+    344,
+    44,
+    400,
+    32
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c3",
+   "role": "text",
+   "rect": [
+    344,
+    78,
+    400,
+    24
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c4",
+   "role": "card",
+   "rect": [
+    350,
+    120,
+    210,
+    82
+   ],
+   "check": true
+  },
+  {
+   "id": "c5",
+   "role": "text",
+   "rect": [
+    360,
+    120,
+    194,
+    82
+   ],
+   "check": true,
+   "lines": 2
+  },
+  {
+   "id": "c6",
+   "role": "card",
+   "rect": [
+    615,
+    120,
+    210,
+    82
+   ],
+   "check": true
+  },
+  {
+   "id": "c7",
+   "role": "icon",
+   "rect": [
+    625,
+    149.0,
+    24,
+    24
+   ],
+   "check": false
+  },
+  {
+   "id": "c8",
+   "role": "text",
+   "rect": [
+    658,
+    120,
+    161,
+    82
+   ],
+   "check": true,
+   "lines": 2
+  },
+  {
+   "id": "c9",
+   "role": "card",
+   "rect": [
+    385,
+    270,
+    410,
+    150
+   ],
+   "check": true
+  },
+  {
+   "id": "c10",
+   "role": "icon",
+   "rect": [
+    395,
+    330.0,
+    30,
+    30
+   ],
+   "check": false
+  },
+  {
+   "id": "c11",
+   "role": "text",
+   "rect": [
+    434,
+    270,
+    355,
+    150
+   ],
+   "check": true,
+   "lines": 2
+  },
+  {
+   "id": "c12",
+   "role": "icon",
+   "rect": [
+    770,
+    46,
+    19,
+    19
+   ],
+   "check": false
+  },
+  {
+   "id": "c13",
+   "role": "text",
+   "rect": [
+    792,
+    43,
+    50,
+    24
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c14",
+   "role": "card",
+   "rect": [
+    640,
+    466,
+    185,
+    72
+   ],
+   "check": true
+  },
+  {
+   "id": "c15",
+   "role": "icon",
+   "rect": [
+    650,
+    491.0,
+    22,
+    22
+   ],
+   "check": false
+  },
+  {
+   "id": "c16",
+   "role": "text",
+   "rect": [
+    681,
+    466,
+    138,
+    72
+   ],
+   "check": true,
+   "lines": 2
+  },
+  {
+   "id": "c17",
+   "role": "card",
+   "rect": [
+    350,
+    570,
+    205,
+    70
+   ],
+   "check": true
+  },
+  {
+   "id": "c18",
+   "role": "text",
+   "rect": [
+    360,
+    570,
+    189,
+    70
+   ],
+   "check": true,
+   "lines": 2
+  },
+  {
+   "id": "c19",
+   "role": "card",
+   "rect": [
+    575,
+    570,
+    250,
+    70
+   ],
+   "check": true,
+   "lines": 2
+  },
+  {
+   "id": "c20",
+   "role": "group",
+   "rect": [
+    20,
+    204,
+    230,
+    266
+   ],
+   "check": true
+  },
+  {
+   "id": "c21",
+   "role": "icon",
+   "rect": [
+    37,
+    218,
+    28,
+    28
+   ],
+   "check": false
+  },
+  {
+   "id": "c22",
+   "role": "text",
+   "rect": [
+    78,
+    215,
+    150,
+    34
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c23",
+   "role": "card",
+   "rect": [
+    35,
+    270,
+    200,
+    70
+   ],
+   "check": true
+  },
+  {
+   "id": "c24",
+   "role": "text",
+   "rect": [
+    45,
+    270,
+    184,
+    70
+   ],
+   "check": true,
+   "lines": 2
+  },
+  {
+   "id": "c25",
+   "role": "card",
+   "rect": [
+    35,
+    362,
+    200,
+    78
+   ],
+   "check": true
+  },
+  {
+   "id": "c26",
+   "role": "text",
+   "rect": [
+    45,
+    362,
+    184,
+    78
+   ],
+   "check": true,
+   "lines": 2
+  },
+  {
+   "id": "c27",
+   "role": "card",
+   "rect": [
+    970,
+    300,
+    210,
+    130
+   ],
+   "check": true
+  },
+  {
+   "id": "c28",
+   "role": "text",
+   "rect": [
+    980,
+    300,
+    194,
+    130
+   ],
+   "check": true,
+   "lines": 2
+  },
+  {
+   "id": "e29",
+   "role": "line",
+   "points": [
+    [
+     235,
+     300
+    ],
+    [
+     385,
+     300
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c30",
+   "role": "label",
+   "rect": [
+    262,
+    281,
+    96,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e31",
+   "role": "line",
+   "points": [
+    [
+     385,
+     382
+    ],
+    [
+     235,
+     382
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c32",
+   "role": "label",
+   "rect": [
+    254,
+    363,
+    122,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e33",
+   "role": "line",
+   "points": [
+    [
+     235,
+     410
+    ],
+    [
+     385,
+     410
+    ]
+   ],
+   "flow": "forward",
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "c34",
+   "role": "label",
+   "rect": [
+    265,
+    391,
+    94,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e35",
+   "role": "line",
+   "points": [
+    [
+     795,
+     324
+    ],
+    [
+     970,
+     324
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c36",
+   "role": "label",
+   "rect": [
+    826,
+    305,
+    122,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e37",
+   "role": "line",
+   "points": [
+    [
+     970,
+     397
+    ],
+    [
+     795,
+     397
+    ]
+   ],
+   "flow": "forward",
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "c38",
+   "role": "label",
+   "rect": [
+    830,
+    378,
+    111,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e39",
+   "role": "line",
+   "points": [
+    [
+     430,
+     202
+    ],
+    [
+     430,
+     270
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c40",
+   "role": "label",
+   "rect": [
+    365,
+    217,
+    79,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e41",
+   "role": "line",
+   "points": [
+    [
+     500,
+     270
+    ],
+    [
+     500,
+     202
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c42",
+   "role": "label",
+   "rect": [
+    474,
+    217,
+    65,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e43",
+   "role": "line",
+   "points": [
+    [
+     720,
+     270
+    ],
+    [
+     720,
+     202
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c44",
+   "role": "label",
+   "rect": [
+    688,
+    217,
+    65,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e45",
+   "role": "line",
+   "points": [
+    [
+     735,
+     466
+    ],
+    [
+     735,
+     420
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c46",
+   "role": "label",
+   "rect": [
+    746,
+    422,
+    65,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e47",
+   "role": "line",
+   "points": [
+    [
+     455,
+     420
+    ],
+    [
+     455,
+     570
+    ]
+   ],
+   "flow": null,
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "e48",
+   "role": "line",
+   "points": [
+    [
+     600,
+     420
+    ],
+    [
+     600,
+     570
+    ]
+   ],
+   "flow": null,
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "c49",
+   "role": "text",
+   "rect": [
+    350,
+    644,
+    475,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c50",
+   "role": "text",
+   "rect": [
+    20,
+    688,
+    400,
+    24
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c51",
+   "role": "text",
+   "rect": [
+    465,
+    688,
+    280,
+    24
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c52",
+   "role": "text",
+   "rect": [
+    850,
+    688,
+    330,
+    24
+   ],
+   "check": true,
+   "lines": 1
+  }
+ ],
+ "bounds": [
+  20,
+  34,
+  1180,
+  712
+ ],
+ "theme": {
+  "accent": "#0E0E10",
+  "back": "#55555F",
+  "canvas": "#FFFFFF",
+  "min_size": 13.0
+ }
+}

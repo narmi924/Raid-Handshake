@@ -1,0 +1,1123 @@
+{
+ "name": "raid-sequence",
+ "items": [
+  {
+   "id": "c1",
+   "role": "card",
+   "rect": [
+    32.5,
+    30,
+    185,
+    62
+   ],
+   "check": true
+  },
+  {
+   "id": "c2",
+   "role": "icon",
+   "rect": [
+    42.5,
+    50.0,
+    22,
+    22
+   ],
+   "check": false
+  },
+  {
+   "id": "c3",
+   "role": "text",
+   "rect": [
+    73.5,
+    30,
+    138.0,
+    62
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c4",
+   "role": "shape",
+   "rect": [
+    124.5,
+    92,
+    1,
+    1078
+   ],
+   "check": false
+  },
+  {
+   "id": "c5",
+   "role": "card",
+   "rect": [
+    297.5,
+    30,
+    185,
+    62
+   ],
+   "check": true
+  },
+  {
+   "id": "c6",
+   "role": "icon",
+   "rect": [
+    307.5,
+    50.0,
+    22,
+    22
+   ],
+   "check": false
+  },
+  {
+   "id": "c7",
+   "role": "text",
+   "rect": [
+    338.5,
+    30,
+    138.0,
+    62
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c8",
+   "role": "shape",
+   "rect": [
+    389.5,
+    92,
+    1,
+    1078
+   ],
+   "check": false
+  },
+  {
+   "id": "c9",
+   "role": "card",
+   "rect": [
+    562.5,
+    30,
+    185,
+    62
+   ],
+   "check": true
+  },
+  {
+   "id": "c10",
+   "role": "text",
+   "rect": [
+    572.5,
+    30,
+    169.0,
+    62
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c11",
+   "role": "shape",
+   "rect": [
+    654.5,
+    92,
+    1,
+    1078
+   ],
+   "check": false
+  },
+  {
+   "id": "c12",
+   "role": "card",
+   "rect": [
+    827.5,
+    30,
+    185,
+    62
+   ],
+   "check": true
+  },
+  {
+   "id": "c13",
+   "role": "text",
+   "rect": [
+    837.5,
+    30,
+    169.0,
+    62
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c14",
+   "role": "shape",
+   "rect": [
+    919.5,
+    92,
+    1,
+    1078
+   ],
+   "check": false
+  },
+  {
+   "id": "c15",
+   "role": "card",
+   "rect": [
+    1092.5,
+    30,
+    185,
+    62
+   ],
+   "check": true
+  },
+  {
+   "id": "c16",
+   "role": "icon",
+   "rect": [
+    1102.5,
+    50.0,
+    22,
+    22
+   ],
+   "check": false
+  },
+  {
+   "id": "c17",
+   "role": "text",
+   "rect": [
+    1133.5,
+    30,
+    138.0,
+    62
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c18",
+   "role": "shape",
+   "rect": [
+    1184.5,
+    92,
+    1,
+    1078
+   ],
+   "check": false
+  },
+  {
+   "id": "c19",
+   "role": "band",
+   "rect": [
+    27,
+    104,
+    1250,
+    30
+   ],
+   "check": false
+  },
+  {
+   "id": "c20",
+   "role": "text",
+   "rect": [
+    35,
+    104,
+    1235,
+    30
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e21",
+   "role": "line",
+   "points": [
+    [
+     390.5,
+     160
+    ],
+    [
+     654.5,
+     160
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c22",
+   "role": "label",
+   "rect": [
+    405,
+    139,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e23",
+   "role": "line",
+   "points": [
+    [
+     654.5,
+     194
+    ],
+    [
+     390.5,
+     194
+    ]
+   ],
+   "flow": "forward",
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "c24",
+   "role": "label",
+   "rect": [
+    405,
+    173,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e25",
+   "role": "line",
+   "points": [
+    [
+     390.5,
+     228
+    ],
+    [
+     654.5,
+     228
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c26",
+   "role": "label",
+   "rect": [
+    405,
+    207,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e27",
+   "role": "line",
+   "points": [
+    [
+     654.5,
+     262
+    ],
+    [
+     390.5,
+     262
+    ]
+   ],
+   "flow": "forward",
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "c28",
+   "role": "label",
+   "rect": [
+    405,
+    241,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e29",
+   "role": "line",
+   "points": [
+    [
+     389.5,
+     300
+    ],
+    [
+     125.5,
+     300
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c30",
+   "role": "label",
+   "rect": [
+    140,
+    279,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e31",
+   "role": "line",
+   "points": [
+    [
+     125.5,
+     334
+    ],
+    [
+     389.5,
+     334
+    ]
+   ],
+   "flow": "forward",
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "c32",
+   "role": "label",
+   "rect": [
+    140,
+    313,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c33",
+   "role": "band",
+   "rect": [
+    27,
+    342,
+    1250,
+    30
+   ],
+   "check": false
+  },
+  {
+   "id": "c34",
+   "role": "text",
+   "rect": [
+    35,
+    342,
+    1235,
+    30
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e35",
+   "role": "line",
+   "points": [
+    [
+     125.5,
+     400
+    ],
+    [
+     389.5,
+     400
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c36",
+   "role": "label",
+   "rect": [
+    140,
+    379,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e37",
+   "role": "line",
+   "points": [
+    [
+     390.5,
+     434
+    ],
+    [
+     1184.5,
+     434
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c38",
+   "role": "label",
+   "rect": [
+    790,
+    413,
+    340,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c39",
+   "role": "group",
+   "rect": [
+    33,
+    460,
+    1244,
+    152
+   ],
+   "check": false
+  },
+  {
+   "id": "c40",
+   "role": "tab",
+   "rect": [
+    33,
+    460,
+    63,
+    26
+   ],
+   "check": false
+  },
+  {
+   "id": "c41",
+   "role": "band",
+   "rect": [
+    97,
+    461,
+    1179,
+    24
+   ],
+   "check": false
+  },
+  {
+   "id": "c42",
+   "role": "text",
+   "rect": [
+    44,
+    460,
+    45,
+    26
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c43",
+   "role": "text",
+   "rect": [
+    115,
+    460,
+    1135,
+    26
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e44",
+   "role": "line",
+   "points": [
+    [
+     389.5,
+     504
+    ],
+    [
+     125.5,
+     504
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c45",
+   "role": "label",
+   "rect": [
+    140,
+    483,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e46",
+   "role": "line",
+   "points": [
+    [
+     125.5,
+     542
+    ],
+    [
+     389.5,
+     542
+    ]
+   ],
+   "flow": "forward",
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "c47",
+   "role": "label",
+   "rect": [
+    140,
+    521,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e48",
+   "role": "line",
+   "points": [
+    [
+     390.5,
+     584
+    ],
+    [
+     1184.5,
+     584
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c49",
+   "role": "label",
+   "rect": [
+    790,
+    563,
+    340,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e50",
+   "role": "line",
+   "points": [
+    [
+     390.5,
+     504
+    ],
+    [
+     919.5,
+     504
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c51",
+   "role": "label",
+   "rect": [
+    405,
+    483,
+    500,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c52",
+   "role": "note",
+   "rect": [
+    410,
+    620,
+    790,
+    28
+   ],
+   "check": false
+  },
+  {
+   "id": "c53",
+   "role": "text",
+   "rect": [
+    410,
+    620,
+    790,
+    28
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e54",
+   "role": "line",
+   "points": [
+    [
+     919.5,
+     665
+    ],
+    [
+     390.5,
+     665
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c55",
+   "role": "label",
+   "rect": [
+    405,
+    644,
+    500,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e56",
+   "role": "line",
+   "points": [
+    [
+     919.5,
+     700
+    ],
+    [
+     390.5,
+     700
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c57",
+   "role": "label",
+   "rect": [
+    405,
+    679,
+    500,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e58",
+   "role": "line",
+   "points": [
+    [
+     389.5,
+     735
+    ],
+    [
+     125.5,
+     735
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c59",
+   "role": "label",
+   "rect": [
+    140,
+    714,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e60",
+   "role": "line",
+   "points": [
+    [
+     125.5,
+     770
+    ],
+    [
+     389.5,
+     770
+    ]
+   ],
+   "flow": "forward",
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "c61",
+   "role": "label",
+   "rect": [
+    140,
+    749,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e62",
+   "role": "line",
+   "points": [
+    [
+     390.5,
+     805
+    ],
+    [
+     1184.5,
+     805
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c63",
+   "role": "label",
+   "rect": [
+    790,
+    784,
+    340,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c64",
+   "role": "band",
+   "rect": [
+    27,
+    830,
+    1250,
+    30
+   ],
+   "check": false
+  },
+  {
+   "id": "c65",
+   "role": "text",
+   "rect": [
+    35,
+    830,
+    1235,
+    30
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e66",
+   "role": "line",
+   "points": [
+    [
+     125.5,
+     885
+    ],
+    [
+     389.5,
+     885
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c67",
+   "role": "label",
+   "rect": [
+    140,
+    864,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e68",
+   "role": "line",
+   "points": [
+    [
+     390.5,
+     920
+    ],
+    [
+     1184.5,
+     920
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c69",
+   "role": "label",
+   "rect": [
+    740,
+    899,
+    420,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e70",
+   "role": "line",
+   "points": [
+    [
+     389.5,
+     960
+    ],
+    [
+     125.5,
+     960
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c71",
+   "role": "label",
+   "rect": [
+    140,
+    939,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e72",
+   "role": "line",
+   "points": [
+    [
+     125.5,
+     994
+    ],
+    [
+     389.5,
+     994
+    ]
+   ],
+   "flow": "forward",
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "c73",
+   "role": "label",
+   "rect": [
+    140,
+    973,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c74",
+   "role": "note",
+   "rect": [
+    415,
+    980,
+    735,
+    28
+   ],
+   "check": false
+  },
+  {
+   "id": "c75",
+   "role": "text",
+   "rect": [
+    415,
+    980,
+    735,
+    28
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e76",
+   "role": "line",
+   "points": [
+    [
+     389.5,
+     1040
+    ],
+    [
+     125.5,
+     1040
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c77",
+   "role": "label",
+   "rect": [
+    140,
+    1019,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e78",
+   "role": "line",
+   "points": [
+    [
+     125.5,
+     1075
+    ],
+    [
+     389.5,
+     1075
+    ]
+   ],
+   "flow": "forward",
+   "dashed": true,
+   "check": true
+  },
+  {
+   "id": "c79",
+   "role": "label",
+   "rect": [
+    140,
+    1054,
+    235,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "e80",
+   "role": "line",
+   "points": [
+    [
+     390.5,
+     1110
+    ],
+    [
+     1184.5,
+     1110
+    ]
+   ],
+   "flow": "forward",
+   "dashed": false,
+   "check": true
+  },
+  {
+   "id": "c81",
+   "role": "label",
+   "rect": [
+    735,
+    1089,
+    435,
+    16
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c82",
+   "role": "note",
+   "rect": [
+    27,
+    1136,
+    1250,
+    28
+   ],
+   "check": false
+  },
+  {
+   "id": "c83",
+   "role": "text",
+   "rect": [
+    35,
+    1136,
+    1240,
+    28
+   ],
+   "check": true,
+   "lines": 1
+  },
+  {
+   "id": "c84",
+   "role": "text",
+   "rect": [
+    35,
+    1184,
+    1240,
+    28
+   ],
+   "check": true,
+   "lines": 1
+  }
+ ],
+ "bounds": [
+  27,
+  30,
+  1277.5,
+  1212
+ ],
+ "theme": {
+  "accent": "#0E0E10",
+  "back": "#55555F",
+  "canvas": "#FFFFFF",
+  "min_size": 14.0
+ }
+}

@@ -10,6 +10,13 @@ dependencies can be reproduced from the included lock files; their distributions
 corresponding additional notices. This file does not assign a license to Raid Handshake's
 original source code.
 
+## Documentation figures
+
+The diagrams in `docs/figures/` use Twitch, OBS Studio and FastAPI marks from Simple Icons
+(CC0); the marks identify their respective integrations. The static SVG/PDF exports embed
+Inter font data under the SIL Open Font License 1.1. The full font notice and license are
+included in `docs/figures/INTER-LICENSE.txt`; asset sources are in `docs/figures/README.md`.
+
 ## Vite core
 
 MIT License
