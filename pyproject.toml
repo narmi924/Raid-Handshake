@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "raid-handshake"
+version = "0.1.0"
+description = "A live context handoff for Twitch raids."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn[standard]>=0.34,<1",
+  "httpx>=0.28,<1", "websockets>=15,<17", "openai>=2,<3",
+  "pydantic-settings>=2.7,<3", "keyring>=25,<27",
+  "python-multipart>=0.0.20", "numpy>=2,<3", "soundcard>=0.4,<1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pytest-asyncio>=0.25,<2", "ruff>=0.11,<1"]
+
+[project.scripts]
+raid-handshake = "raid_handshake.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/raid_handshake"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"docs/FIRST_REAL_RAID.zh-CN.md" = "raid_handshake/guides/FIRST_REAL_RAID.zh-CN.md"
+"docs/OBS_AUDIO_SETUP.zh-CN.md" = "raid_handshake/guides/OBS_AUDIO_SETUP.zh-CN.md"
+"THIRD_PARTY_NOTICES.md" = "raid_handshake/THIRD_PARTY_NOTICES.md"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B", "ASYNC"]
